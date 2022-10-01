@@ -1,0 +1,19 @@
+{
+  "name": "honeypot-checker-exmpale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:testnet": "ENV=TESTNET node ./src/index",
+    "start:mainnet": "ENV=MAINNET node ./src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^1.8.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
