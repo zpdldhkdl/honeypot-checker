@@ -1,0 +1,11 @@
+{
+  "name": "honeypot-checker",
+  "description": "smart contract that check the honeypot",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.7.3",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.11.2"
+  }
+}
