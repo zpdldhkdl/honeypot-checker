@@ -7,3 +7,13 @@
 - if the base token is not WBNB, it is displayed through the swap process of `wbnb` -> `base token` -> `target` token.
 
 - since correct results can be obtained only when the LP pool exists, logic to check the existence of the lp pool is required in actual use.
+
+## BSC MAINNET
+
+`npm run start:mainnet`
+
+## BSC TESTNET
+
+- need to modify `HONEYPOT_CHECKER_ADDRESS` of constants before use.
+
+`npm run start:testnet`
