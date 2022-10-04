@@ -12,6 +12,8 @@
 
 `npm run start:mainnet`
 
+- need to modify `targetTokenAddress` in index.js file before use.
+
 ## BSC TESTNET
 
 - need to modify `HONEYPOT_CHECKER_ADDRESS` of constants before use.
