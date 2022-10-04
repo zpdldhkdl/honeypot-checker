@@ -1,5 +1,4 @@
 const Web3 = require("web3");
-require("dotenv").config();
 
 const {
   RPC,
@@ -14,8 +13,6 @@ const HoneypotCheckerCaller = require("./HoneypotCheckerCaller");
 
 const web3 = new Web3(RPC);
 
-web3.eth.accounts.wallet.add(process.env.PRIVATE_KEY);
-
 const main = async () => {
   try {
     const honeypotCheckerCaller = new HoneypotCheckerCaller(
@@ -23,7 +20,7 @@ const main = async () => {
         HONEYPOT_CHECKER_ADDRESS
       ),
       baseTokenAddress = WBNB_ADDRESS,
-      targetTokenAddress = "TARGET_TOKEN_ADDRESS";
+      targetTokenAddress = "0xfdd2374be7ae7a71138b9f6b93d9ef034a49edb6";
 
     const {
       buyGas,
