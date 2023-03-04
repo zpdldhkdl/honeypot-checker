@@ -20,7 +20,7 @@ const main = async () => {
         HONEYPOT_CHECKER_ADDRESS
       ),
       baseTokenAddress = WBNB_ADDRESS,
-      targetTokenAddress = "0xfdd2374be7ae7a71138b9f6b93d9ef034a49edb6";
+      targetTokenAddress = "0x55d398326f99059fF775485246999027B3197955";
 
     const {
       buyGas,
