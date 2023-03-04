@@ -34,6 +34,8 @@ module.exports = class HoneypotCheckerCaller {
   }
 
   calculateTaxFee(estimatedPrice, exactPrice) {
-    return (((estimatedPrice - exactPrice) / estimatedPrice) * 100).toFixed(1);
+    const result = (((estimatedPrice - exactPrice) / estimatedPrice) * 100).toFixed(1);
+
+    return result <= 0 ? 0 : result
   }
 };
